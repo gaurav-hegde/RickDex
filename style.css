@@ -1,0 +1,137 @@
+body {
+    background-color: #191A19;
+    color: #D8E9A8;
+}
+
+form {
+    background-color: white;
+    width: 40rem;
+    height: 44px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+input {
+    all: unset;
+    font: 16px system-ui;
+    background-color: #fff;
+    color: black;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}  
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #D8E9A8;
+}
+
+.logo {
+    width: 6rem;
+    margin: 1rem
+}
+
+button {
+    all:unset;
+}
+
+.search{
+    margin-left: 25rem;
+}
+
+.search-button {
+    width: 20px;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 0rem;
+}
+
+.box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box div {
+    background-color: #1E5128;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    border: 3px #D8E9A8 solid;
+    border-radius: 2rem;
+}
+
+.box div img {
+    border-radius: 1rem;
+    margin: 1rem;
+    border: 2px #D8E9A8 solid;
+}
+
+.box h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+p {
+    font-size: 1rem;
+}
+
+@media (max-width: 1200px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .search {
+        margin-left: 0rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 660px) {
+    form {
+        width: 20rem;
+    }
+}
+
+/* .row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box div {
+    background-color: #87AAAA;
+    color: black;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    border-radius: 2rem;
+    border: 3px #F6D7A7 solid;
+}
+
+.box div img {
+    width: 12rem;
+} */
